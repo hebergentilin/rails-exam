@@ -21,7 +21,7 @@ Siga rigorosamente a stack a seguir:
 Regras de Negócio:
   - Com ou sem ajuda de alguma gem, desenvolva um sistema de autenticação de usuários;
   - Todo usuário do sistema, deverá fazer parte de uma empresa;
-  - O acesso ao projeto pela URL, só se dará pelo subdomínio cadastrado na empresa. As demais URL, não terão acesso ao sistema.
+  - O acesso ao projeto pela URL, só se dará pelo subdomínio cadastrado na empresa. As demais URL, não terão acesso ao sistema.  
 Ex: a empresa XPTO Company tem cadastrado o subdomínio ```xpto-company```. Os usuários da empresa XPTO, só poderão se autenticar se acessar a URL ```xpto-company.traus.com.br```. O sistema de autenticação deve bloquear um usuário da empresa Big Tech, por exemplo, quando tentar se autenticar através da URL de outra empresa.
   - Ao se autenticar, apenas exiba as seguintes informações:
     - Nome da Empresa
